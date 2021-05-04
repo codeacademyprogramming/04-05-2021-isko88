@@ -74,3 +74,54 @@ color:#94A2B3;
     border-radius: 60px;
     color: white;
 }
+
+
+#owners-section{
+    background: url(../images/bg_gradient.png) no-repeat;
+    /* margin-top: 5rem; */
+    padding: 12rem 0;
+}
+
+#owners-section .text-div{
+    color:#94A2B3;
+    padding:2rem;
+}
+#owners-section .md-symbol-img{
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+}
+#owners-section .person1,.person2,.person3,.person4,.person5,.person6{
+    position: absolute;
+    top:0
+}
+#owners-section .person1{
+    top:0px;
+    left:111px;
+}
+#owners-section .person2{
+    right: 0;
+    top: -30px;
+}
+#owners-section .person3{
+    right: 0;
+    top: 133px;
+}
+#owners-section .person4{
+    right: 240px;
+    top: 100%;
+}
+#owners-section .person5{
+    top: 90%;
+    left: 170px;
+}
+#owners-section .person6{
+    left: 0;
+    top: 50%;
+}
+
+@media (max-width: 992px) { 
+    #owners-section .person1,#owners-section .person2,#owners-section .person3,#owners-section .person4,#owners-section .person5,#owners-section .person6{
+        display: none;
+    }
+}
