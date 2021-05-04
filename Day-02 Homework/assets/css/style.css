@@ -5,7 +5,7 @@ nav .nav-item .nav-link{
 a{
     text-decoration: none;
 }
-section{
+section#title-section{
     background: url(../images/bg_gradient.png) no-repeat;
 }
 
@@ -40,4 +40,13 @@ color:#94A2B3;
     .right-img img{
        width: 60%; 
     }
+}
+#commerce-section .content-img{
+    height: 275px;
+}
+#commerce-section .content-img img{
+   
+    position: absolute;
+    top:0;
+    left: 0;
 }
