@@ -1,0 +1,10 @@
+nav .nav-item .nav-link{
+    color:black;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+section{
+    background: url(../images/bg_gradient.png) no-repeat;
+}
