@@ -8,3 +8,36 @@ a{
 section{
     background: url(../images/bg_gradient.png) no-repeat;
 }
+
+.section-content{
+
+    width:50%;
+    height:fit-content;
+
+    
+}
+.section-content p{
+color:#94A2B3;
+}
+
+.right-img{
+
+    width:50%;
+    height:auto;
+ 
+}
+.right-img img{
+    width:100%;
+}
+.border-22{
+    border-radius:22px;
+}
+
+@media (max-width: 767.98px) { 
+    .right-img, .container .section-content{
+        text-align: center;
+    }
+    .right-img img{
+       width: 60%; 
+    }
+}
