@@ -40,6 +40,7 @@ color:#94A2B3;
     .right-img img{
        width: 60%; 
     }
+
 }
 #commerce-section .content-img{
     height: 275px;
@@ -49,4 +50,27 @@ color:#94A2B3;
     position: absolute;
     top:0;
     left: 0;
+}
+
+#community-section{
+    background: url(../images/community_bg.png) no-repeat;
+    margin-top:5rem;
+  
+}
+#community-section .l-image{
+    margin-top:-3rem;
+}
+#community-section .r-image{
+    margin-bottom:-4rem;
+}
+
+#community-section .content-txt p{
+    font-size: 14px;
+}
+#community-section .content-txt a{
+    width: fit-content;
+    padding: 10px;
+    background: #70C217;
+    border-radius: 60px;
+    color: white;
 }
